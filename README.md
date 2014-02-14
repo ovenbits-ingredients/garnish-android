@@ -5,17 +5,23 @@ Android style helpers
 
 Getting started
 ----------------
-1. Copy the garnish directory to the `libraries` folder of your Android project
-2. Update your gradle config to compile garnish
+####Steps####
+* Copy the garnish directory to the `libraries` folder of your Android project
+* Update your gradle config to compile garnish
 
+####Example `build.gradle` dependency changes####
+    
+    dependencies {
+        compile project(':libraries:garnish')
+    }
 
 Using FancyTextView
 --------------------
-###Steps###
+####Steps####
 * Add custom fonts to `assets` directory
 * Change `TextView` to `FancyTextView`
 
-###Example View Code###
+####Example View Code####
 
     <com.ovenbits.garnish.FancyTextView
         xmlns:ftv="http://schemas.android.com/apk/res-auto"
