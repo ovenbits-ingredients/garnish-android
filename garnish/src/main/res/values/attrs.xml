@@ -2,6 +2,5 @@
 <resources>
     <declare-styleable name="FancyTextView">
         <attr name="textFont" format="string"/>
-        <attr name="html" format="string"/>
     </declare-styleable>
 </resources>

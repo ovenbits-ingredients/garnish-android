@@ -39,9 +39,6 @@ public class FancyTextView extends TextView{
 
                 if (currentAttr == R.styleable.FancyTextView_textFont) {
                     loadTypeface(context, mTypedArray.getString(i));
-                } else if (currentAttr == R.styleable.FancyTextView_html) {
-                    String htmlText = mTypedArray.getString(i);
-                    super.setText(Html.fromHtml(htmlText));
                 }
             }
         }
