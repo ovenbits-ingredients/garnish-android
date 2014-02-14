@@ -19,7 +19,8 @@ Using FancyTextView
 --------------------
 ####Steps####
 * Add custom fonts to `assets` directory
-* Change `TextView` to `FancyTextView`
+* Change `TextView` to `com.ovenbits.garnish.FancyTextView`
+* Include the namespace declaration `xmlns:ftv="http://schemas.android.com/apk/res-auto"` so you can access the custom attributes
 
 ####Example View Code####
 
