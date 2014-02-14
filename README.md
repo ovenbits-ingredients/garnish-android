@@ -6,7 +6,7 @@ Android style helpers
 Getting started
 ----------------
 ####Steps####
-* Copy the garnish directory to the `libraries` folder of your Android project
+* Copy the garnish directory to the `libraries` folder of your Android Studio project
 * Update your gradle config to compile garnish
 
 ####Example `build.gradle` dependency changes####
